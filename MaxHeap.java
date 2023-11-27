@@ -1,7 +1,5 @@
 package Lab9;
 
-import java.lang.reflect.Array;
-
 public class MaxHeap {
     private int[] data;
     
@@ -21,16 +19,10 @@ public class MaxHeap {
     public int delete()
     {
         // Your codes goes here
-    	int max = 0; 
-    	
-        for (i=0; i <= Array.getLength(data); i++) {
-        	if (i > i-1) {
-        		i == max;
-        	}
-        }
+        
         
         // You should change this line and return the max value
-        return max;
+        return 0;
     }
     
     /**
@@ -40,7 +32,6 @@ public class MaxHeap {
     public void add(int newData)
     {
         // Your code goes here
-    	
     }
 
     /**

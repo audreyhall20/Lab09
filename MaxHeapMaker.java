@@ -9,13 +9,6 @@ public class MaxHeapMaker {
     public static int[]heapify(int[]input)
     {
         // Your code goes here
-    	int[] randArray = {1, 5, 7, 3, 9, 2};
-    	
-    	for (i = 0; i <= randArray.length; i++) {
-    		if (i < i-1) {
-    			
-    		}
-    	}
         
         return input;
     }
